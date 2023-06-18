@@ -3,7 +3,6 @@ const { Schema, model } = require("mongoose");
 const felshSchema=Schema({
     title:String,
     description:String,
-    diagram:String,
     term:String,
     definition:String,
     userID:String,
