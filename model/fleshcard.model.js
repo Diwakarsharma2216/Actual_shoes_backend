@@ -4,10 +4,8 @@ const felshSchema=Schema({
     title:String,
     description:String,
     diagram:String,
-    EntertermOne:String,
-    EntertermOneDefinition:String,
-    EntertermTwo:String,
-    EntertermTwoDefinition:String,
+    term:String,
+    definition:String,
     userID:String,
     username:String
 
